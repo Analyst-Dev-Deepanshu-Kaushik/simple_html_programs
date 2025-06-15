@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Data - Userform example</title>
+    <style>
+        body {
+            background-color: rgb(233, 178, 188);
+            padding: 20px;
+        }
+
+        fieldset {
+            margin: auto;
+            padding: 10px;
+            width: 600px;
+            border: 1px solid rgb(99, 92, 92);
+            border-radius: 6px;
+        }
+
+        legend {
+            font-size: 1.1em;
+            font-weight: normal;
+            padding: 0 10px;
+            color: rgb(51, 49, 49);
+            text-align: center;
+        }
+
+        form {
+            background-color: rgb(185, 49, 49);
+            padding: 20px;
+            margin: 10px;
+        }
+
+        table td {
+            font-size: 0.8em;
+            color: rgb(0, 0, 0);
+            margin: 10px;
+            font-size: 1.1em;
+        }
+
+        table input[type="text"],
+        input[type="number"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            color: rgb(7, 0, 0);
+            background-color: #e2dada;
+            box-sizing: border-box;
+            border: 1px solid rgb(71, 69, 69);
+            border-radius: 4px;
+            margin-left: 22px;
+        }
+
+        table input[type="file"] {
+            width: 100%;
+            color: black;
+            padding: 8px;
+            margin-left: 14px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            margin: 10px;
+            font-size: 1em;
+            text-align: center;
+            margin-left: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>BIO DATA</legend>
+        <form action="">
+            <table>
+                <tr>
+                    <td>Search: </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>First Name: </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Create Password: </td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>Middle Name: </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Last Name: </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth: </td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Age: </td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Father's / Mother's Name: </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Job Title: </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Educational Qualification: </td>
+                    <td><select name="">
+                            <option value="choose">select from these options</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Work Experience: </td>
+                    <td><textarea name="" id="" cols="22" rows="4" placeholder="Input your work experience here:"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Skills and Interest: </td>
+                    <td><textarea name="" id="" cols="22" rows="4" placeholder="Input your skills and interest here:"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Phone: </td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Upload Phone: </td>
+                    <td><input type="file"></td>
+                </tr>
+            </table>
+        </form>
+        <button>Submit</button>
+    </fieldset>
+</body>
+
+</html>
